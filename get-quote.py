@@ -13,8 +13,8 @@ def tree():
   end = 13
   pick = random.randint(0,end)
   
-  print(quotes[rnd])
-  print(quotes[pick])
+  print(quotes[rnd],' ',quotes[pick])
+  #print(quotes[pick])
 
 if __name__== "__main__":
   tree()
