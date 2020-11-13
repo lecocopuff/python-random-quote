@@ -8,12 +8,12 @@ def tree():
   f.close()
 
   last = 13
-  rnd = random.randint(0, last)
+  rnd = random.sample(range(last),2)
   
-  end = 13
-  pick = random.randint(0,end)
+  a = rnd[0]
+  b = rnd[1]
   
-  print(quotes[rnd],quotes[pick], sep='')
+  print(quotes[a],quotes[b], sep='')
   #print(quotes[pick])
 
 if __name__== "__main__":
