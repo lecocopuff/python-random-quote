@@ -10,7 +10,9 @@ def tree():
   last = 13
   rnd = random.randint(0, last)
   
-  print(quotes[rnd])
+  end = 13
+  pick = random.randint(0,pick)
+  
   print(quotes[rnd])
 
 if __name__== "__main__":
