@@ -7,5 +7,5 @@ def tree():
 
   print(quotes[0])
 
-if __name__== "__tree__":
+if __name__== "__main__":
   tree()
