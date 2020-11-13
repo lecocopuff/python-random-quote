@@ -11,6 +11,7 @@ def tree():
   rnd = random.randint(0, last)
   
   print(quotes[rnd])
+  print(quotes[rnd])
 
 if __name__== "__main__":
   tree()
